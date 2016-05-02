@@ -1,0 +1,178 @@
+
+
+.navbar-brand{
+  font-size: 1em;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar{
+  opacity: 0.9;
+  text-align: right;
+  font-family:"Raleway";
+}
+
+.jumbotron{
+  background-image: url("jumbotron.png");
+  background-repeat: no-repeat;
+  background-size:cover;;
+  width: 100%;
+  background-attachment:fixed;
+  background-position: center 0px;
+}
+
+.jumbotron h1{
+  position: scroll;
+  text-align: center;;
+  margin: 16% auto;
+  color: #FFF;
+  font-size: 7.5em;
+  opacity: 0.65;
+  font-family: Pacifico;
+
+}
+
+.mission{
+  position: relative;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);;
+  opacity: 0.85;
+  font-size: 1.5em;
+  padding: 2.5%;
+  text-align: center;
+  font-family:"Source Sans Pro";
+}
+
+
+.work{
+  background-color: #FFF;
+  position:relative;
+  text-align: center;
+  color: #444444;
+  font-weight: 100;
+  padding: 3% 0;
+  font-family: "Source Sans Pro";
+}
+.work h2{
+  color: #474747;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 5%;
+  padding-top:2%;
+  font-family: Raleway;
+}
+
+.work img{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.workrow{
+  margin:3% 3%;
+}
+
+.skills{
+  position:relative;
+  text-align: center;
+  margin: 0 3%;
+}
+
+.skill{
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 350px;
+  margin: 2%;
+  padding: 2.5%;
+  font-family: "Source Sans Pro";
+}
+
+
+.skills h2{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 3em;
+  margin: 4% auto;
+  padding: 1%;
+  font-family: Raleway;
+}
+
+.contact_form{
+  margin: 4% auto;
+  padding: 2% auto;
+}
+
+.contact_form h3{
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2em;
+  text-align: center;
+  margin: 2% auto;
+  font-family: Raleway;
+}
+
+.footer ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  height: 100%;
+
+}
+
+.footer li{
+  display:inline;
+
+}
+
+.copyright{
+  text-align: center;
+  padding: 1%;
+  font-family: "Open Sans Condensed";
+}
+
+.socialmedia{
+  text-align: center;
+  padding: 1%;
+}
+
+.socialmedia h4{
+  margin-top: -1%;
+  margin-bottom: 2%;
+  color: #474747;
+  font-size: 1.5em;
+  font-family: Kreon;
+}
+
+.contact_form{
+  text-align: center;
+}
+
+.sign-up input {
+  border: none;
+  border-bottom: 1px solid #AAA;
+  border-color: #AAA;
+  display: block;
+  padding: 4px;
+  /*height: 32px;*/
+  width: 50%;
+  font-weight: 400;
+  margin: 2% 25%;
+  font-family: "Raleway";
+}
+
+.message{
+  height:100px;
+}
+
+.sign-up-button{
+  width: 12%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 1.2em;
+  color: #5c5c5c;
+  font-family: "Raleway";
+}
